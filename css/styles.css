@@ -70,12 +70,15 @@ a {
 
 .hero-button:hover,
 .hero-button:focus {
+  background-color: #404bbf;
+}
+.hero-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 /* Advantages Section */
@@ -103,7 +106,7 @@ a {
 .team {
   background-color: #f4f4fd;
 }
-.team-membert {
+.team-list {
   background-color: #ffffff;
 }
 .team-title {
