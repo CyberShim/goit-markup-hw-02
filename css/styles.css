@@ -106,7 +106,7 @@ a {
 .team {
   background-color: #f4f4fd;
 }
-.team-list {
+.team-photo {
   background-color: #ffffff;
 }
 .team-title {
@@ -124,6 +124,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-role {
   font-weight: 400;
