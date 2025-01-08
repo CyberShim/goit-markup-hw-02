@@ -67,13 +67,15 @@ a {
   text-align: center;
   color: #ffffff;
 }
-.hero-button {
+
+.hero-button:hover,
+.hero-button:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   cursor: pointer;
 }
 /* Advantages Section */
@@ -100,6 +102,9 @@ a {
 /* Team Section */
 .team {
   background-color: #f4f4fd;
+}
+.team-membert {
+  background-color: #ffffff;
 }
 .team-title {
   font-weight: 700;
