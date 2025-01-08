@@ -1,6 +1,6 @@
 /* General */
 body {
-  font-family: "Roboto", sans-serif; 
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
@@ -9,27 +9,13 @@ body {
 ul,
 ol {
   list-style-type: none;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
 }
 a {
   text-decoration: none;
 }
 /* Header */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
   background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.header-nav {
-  display: flex;
-  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -86,15 +72,14 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 /* Advantages Section */
+.visually-hidde {
+  color: #2e2f42;
+}
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -109,6 +94,9 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.advantages-item {
+  background-color: #ffffff;
+}
 /* Team Section */
 .team {
   background-color: #f4f4fd;
@@ -116,9 +104,10 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-name {
@@ -141,8 +130,9 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -165,8 +155,9 @@ a {
   background-color: #2e2f42;
 }
 .footer-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
