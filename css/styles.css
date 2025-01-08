@@ -73,11 +73,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 /* Advantages Section */
-.visually-hidde {
+.visually-hidden {
   color: #2e2f42;
 }
 .advantages-title {
@@ -94,7 +94,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.advantages-item {
+.advantages-list {
   background-color: #ffffff;
 }
 /* Team Section */
