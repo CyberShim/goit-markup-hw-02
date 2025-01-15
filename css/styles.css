@@ -1,4 +1,4 @@
-/* General */
+/*--------- General --------------------*/
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -13,7 +13,7 @@ ol {
 a {
   text-decoration: none;
 }
-/* Header */
+/* -------------Header ------------------*/
 .header {
   background-color: #ffffff;
 }
@@ -55,7 +55,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* Hero Section */
+/*----------Hero Section ---------------*/
 .hero {
   background-color: #2e2f42;
 }
@@ -81,7 +81,7 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-/* Advantages Section */
+/*----- Advantages Section -----------*/
 .visually-hidden {
   color: #2e2f42;
 }
@@ -102,13 +102,11 @@ a {
 .advantages-list {
   background-color: #ffffff;
 }
-/* Team Section */
+/* ------------Team Section -----------*/
 .team {
   background-color: #f4f4fd;
 }
-.team-photo {
-  background-color: #ffffff;
-}
+
 .team-member {
   background-color: #ffffff;
 }
@@ -138,7 +136,7 @@ a {
   color: #434455;
 }
 
-/* Portfolio Section */
+/* ----------Portfolio Section ---------*/
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -162,7 +160,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* Footer */
+/* -----------Footer --------------------*/
 .footer {
   background-color: #2e2f42;
 }
